@@ -15,4 +15,6 @@ Production-ready Node.js, Express, TypeScript, and Prisma backend for AI Career 
 # Getting Started
 
 ## Install Dependecies
-
+```bash
+npm install
+```
