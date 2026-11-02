@@ -14,7 +14,15 @@ Production-ready Node.js, Express, TypeScript, and Prisma backend for AI Career 
 
 # Getting Started
 
-## Install Dependecies
+## 1. Install Dependecies
 ```bash
 npm install
 ```
+
+##  2. Configure Environment
+Copy `.env.example` to `.env`:
+Key configuration variables:
+- ` PORT: Set to ` ` 5000 ` (matches frontend default VITE_API_URL=http://localhost:5000).
+- ` DATABASE_URL: MongoDB Atlas connection string.
+- ` JWT_SECRET: Secure string of at least 32 characters.
+- ` ANTHROPIC_API_KEY / ` ` GEMINI_API_KEY /` ` OPENAI_API_KEY: ` Optional; an intelligent heuristic fallback analyzer is active if comitted.
